@@ -1,0 +1,100 @@
+\documentclass[12pt]{article}
+\usepackage{polyglossia} %LuaLatex Compiler Engine
+\setmainlanguage[variant=indonesian]{malay}
+\setotherlanguages{english}
+\PolyglossiaSetup{malay}{indentfirst=true}
+
+\usepackage{fontspec}
+
+\usepackage[bahasai, calc]{datetime2}
+\DTMsavedate{born}{1996-06-26}
+
+\usepackage{tabularx}
+\usepackage{booktabs} % Required for better horizontal rules in tables
+
+\usepackage{enumitem}
+\pagenumbering{gobble}
+
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace} %Alter spacing in paragraph
+\onehalfspacing %Specify spacing of setspace
+%----------------------------------------------------------------------------------------
+%	DOCUMENT MARGINS
+%----------------------------------------------------------------------------------------
+
+\usepackage{geometry} % Required for adjusting page dimensions and margins
+
+\geometry{
+	paper=a4paper, % Paper size, change to letterpaper for US letter size
+	top=2cm, % Top margin
+	bottom=2cm, % Bottom margin
+	left=3cm, % Left margin
+	right=2cm, % Right margin
+	headheight=0.75cm, % Header height
+	footskip=1.5cm, % Space from the bottom margin to the baseline of the footer
+	headsep=0.75cm, % Space from the top margin to the baseline of the header
+	%showframe, % Uncomment to show how the type block is set on the page
+}
+
+\begin{document}
+
+% Head of Letter
+\flushleft{Perihal Permohonan Lamaran Kerja\\ Staff Pengajar/Dosen}
+
+
+\vspace{\baselineskip}% replacement for \\ macros
+{\raggedleft
+\begin{tabular}{p{1cm}l@{}}
+\vspace{10pt}
+&Parepare, \today\\
+& Kepada\\
+Yth. & Bapak Rektor\\
+&Universitas Muhammadiyah\\
+&di \\
+&Parepare
+
+\end{tabular}\par}
+
+Assalamu Alaikum Wr. Wb.
+
+Dengan Hormat,
+
+Saya, yang bertanda tangan dibawah ini:
+
+\begin{table}[htpb]
+    \begin{tabular}{ll}
+Nama & : Muhammad Uliah Shafar S.Ars, M.Ars\\
+Tempat/ Tanggal lahir & : Parepare, \DTMusedate{born}\\
+Pendidikan Terakhir & : S.2 Arsitektur Universitas Diponegoro\\
+Alamat & : Jalan Handayani no. 7, Lapadde, Ujung, Parepare\\
+Email & : 777uliahshafar@gmail.com\\
+No. Telepon &: 081355190767\\
+    \end{tabular}
+\end{table}
+Bermaksud mengajukan diri sebagai tenaga pendidik di Universitas Muhammadiyah Parepare, Parepare.
+Sebagai bahan pertimbangan, saya lampirkan hal-hal berikut:
+
+\begin{enumerate}
+    \item Fotokopi KTP
+    \item Satu lembar 4x6 berwarna
+    \item Curiculum Vitae
+    \item Fotokopi ijazah dan transkrip nilai terakhir yang telah dilegalisir
+\end{enumerate}
+
+Demikian surat permohonan ini saya ajukan, besar harapan saya kiranya Bapak/Ibu memberi kesempatan kepada saya untuk mengabdi di Universitas Muhammadiyah Parepare. Atas perhatian dan perkenaan Bapak/Ibu, saya ucapkan banyak terima kasih.
+
+
+Wassalamu Alaikum Wr. Wb.
+
+{\raggedleft
+\begin{tabular}{l@{}}
+Parepare, \today \\
+Hormat saya, \\
+\\
+\\
+\\
+\\
+(Muhammad Uliah Shafar)\\
+\end{tabular}\par}
+
+\end{document}
