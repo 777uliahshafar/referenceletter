@@ -56,13 +56,13 @@
 %	TITLE SECTION
 %----------------------------------------------------------------------------------------
 
-\usepackage[explicit]{titlesec} %explicitly state the sectional title as #1, where you can now wrap it within \MakeUppercase
+\usepackage{titlesec} %explicitly state the sectional title as #1, where you can now wrap it within \MakeUppercase
 
 \titleformat{\section} %command
-{\normalfont\fontsize{12}{15}\filcenter\bfseries}%format
-{\MakeUppercase{#1}}%label
+{\normalfont\fontsize{12}{15}\filcenter\bfseries\MakeUppercase}%format
+{}%label
 {0pt}%sep space between number n title
-{\vspace{0pt}}%before-title
+{\vspace{2pt}}%before-title
 []%after-title
 
 \titlespacing\section{0pt}
