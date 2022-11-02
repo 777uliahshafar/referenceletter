@@ -11,8 +11,11 @@
 \usepackage[bahasai, calc]{datetime2}
 \DTMsavedate{born}{1996-06-26}
 
-\usepackage{tabularx}
+\usepackage{tabularx,array,caption,boldline}
 \usepackage{booktabs} % Required for better horizontal rules in tables
+\usepackage{cellspace}
+\setlength\cellspacetoplimit{4pt}
+\setlength\cellspacebottomlimit{4pt}
 
 \usepackage{enumitem}
 \pagenumbering{gobble}
@@ -216,16 +219,16 @@ Yang bertanda tangan dibawah ini:
 
 \begin{table}[htpb]
 \renewcommand{\arraystretch}{1.25}
-    \begin{tabular}{p{4cm}l}
-Nama & : Prof. Atik   \\
-NIP*) & : \\
+    \begin{tabularx}{\textwidth}{p{4cm}X}
+Nama & : Prof. Dr. Ir. Atik Suprapti,  M.T.   \\
+NIP*) & : 196511131998032001 \\
 Pangkat/ Gol & : \\
 Jabatan & : \\
-Instansi & : \\
-Alamat Instansi & : \\
-No. Telp/Handphone &: \\
-Email & : \\
-    \end{tabular}
+Instansi & : Universitas Diponegoro\\
+Alamat Instansi & : Jl. Prof. Soedarto, Kampus Undip Tembalang, Semarang \\
+No. Telp/Handphone &: 08156624006 \\
+Email & : atiksuprapti@arsitektur.undip.ac.id  \\
+    \end{tabularx}
 \end{table}
 
 Memberi rekomendasi kepada:
@@ -241,16 +244,16 @@ Alamat & : Jl. Handayani no. 7, Ujung, Kota Parepare \\
 Deskripsi Rekomendasi:
 
 \makenonemptybox{6cm}{Suatu kebanggaan saya dapat merekomendasikan M. Uliah Shafar untuk program beasiswa LPDP anda. Saya telah mengenal Uliah sejak dia mengikuti beberapa mata kuliah magister yang saya ampu di Universitas Diponegoro. Hubungan saya dengannya semakin kuat saat saya membimbing dia dalam pengerjaan tesisnya. Selama berinteraksi, Uliah menunjukkan kualitas yang baik seperti menyelesaikan dengan konsisten revisi tugas-tugas dengan penuh dedikasi dan antusias. \par
-Uliah memiliki kemampuan menggambarkan penulisan tugas yang baik dengan dukungan sitasi dalam maupun luar negeri yang kredibel dan melimpah. Dia juga merupakan sosok pribadi yang santun. Oleh karena itu,
-saya dengan penuh kesadaran sangat merekomendasikan Uliah sebagai calon awardee LPDP. }
-
+Uliah menggambarkan penulisan tugas yang baik dengan dukungan sitasi dalam maupun luar negeri yang kredibel dan melimpah.
+Dia juga menjadi salah satu mahasiswa yang lulus dengan predikat cumlaude. Oleh karena itu,
+saya sangat merekomendasikan Uliah sebagai calon awardee LPDP. }
 
 Demikian surat rekomendasi ini dibuat dengan sebenar-benarnya untuk dapat digunakan sebagaimana mestinya.
 
 
 {\raggedleft
 \begin{tabular}{l@{}}
-Parepare, \fillin[3cm] 2022 \\
+Semarang, \fillin[3cm] 2022 \\
 \hskip 4em (Perekomendasi) \\
 \\
 \\
@@ -266,12 +269,12 @@ Yang bertanda tangan dibawah ini:
 \begin{table}[htpb]
 \renewcommand{\arraystretch}{1.25}
     \begin{tabular}{p{4cm}l}
-Nama & : Imam Fadly   \\
-NIP*) & : \\
+Nama & : Imam Fadli, ST., MT.   \\
+NBM*) & : 1085 861 \\
 Pangkat/ Gol & : \\
 Jabatan & : \\
-Instansi & : \\
-Alamat Instansi & : \\
+Instansi & : Universitas Muhammadiyah Parepare\\
+Alamat Instansi & : Jl. Jend. A. Yani KM.6 Parepare, Sulawesi Selatan \\
 No. Telp/Handphone &: \\
 Email & : \\
     \end{tabular}
@@ -289,7 +292,10 @@ Alamat & : Jl. Handayani no. 7, Ujung, Kota Parepare \\
 
 Deskripsi Rekomendasi:
 
-\makenonemptybox{6cm}{ }
+\makenonemptybox{6cm}{Saya menulis surat ini dengan tujuan memberi rekomendasi kepada M. Uliah Shafar untuk beasiswa LPDP. Semenjak saya bekerja bersama Uliah, selaku Kepala Prodi, saya melihat sejumlah potensi dan etos kerja yang sangat baik.
+Dia membawakan kelas perancangan kota dengan sangat baik. Uliah juga pernah membantu perancangan dan maket Universitas Muhammadiyah Parepare. Uliah membuktikan dengan kerja keras, kerjasama dan mengikuti arahan, dia dapat menyelesaikan pekerjaan dengan tepat waktu dan memuaskan. Uliah sangat terampil untuk berkembang melalui tantangan yang dibebankan. Kesabaran, kemampuan mengajar, dan keterampilan merancangnya mempersiapkannya untuk berkontribusi lebih besar. Saya sangat mendukung Uliah menjadi bagian dari penerima beasiswa LPDP.}
+
+%Sepanjang pengetahuan saya, dia memiliki kemampuan merancang bangunan dimana kedepannya dapat berkontribusi untuk sekitarnya. Saya ingin menegaskan rekomendasi saya terhadap Uliah Shafar.
 
 
 Demikian surat rekomendasi ini dibuat dengan sebenar-benarnya untuk dapat digunakan sebagaimana mestinya.
@@ -305,5 +311,106 @@ Parepare, \fillin[3cm] 2022 \\
 \\
 (\fillin[6cm])\\
 \end{tabular}\par}
+
+
+\section{Surat Rekomendasi Akademisi}
+
+Yang bertanda tangan dibawah ini:
+
+\begin{table}[htpb]
+\renewcommand{\arraystretch}{1.25}
+    \begin{tabular}{p{4cm}l}
+Nama & : Prof. Dr. Ir. Atik Suprapti,  M.T.  \\
+NIP*) & : 196511131998032001\\
+Pangkat/ Gol & : \\
+Jabatan & : \\
+Instansi & : Universitas Diponegoro\\
+Alamat Instansi & : Jl. Prof. Soedarto, Kampus Undip Tembalang, Semarang\\
+No. Telp/Handphone &:08156624006 \\
+Email & : atiksuprapti@arsitektur.undip.ac.id\\
+    \end{tabular}
+\end{table}
+
+Memberikan rekomendasi untuk mendaftar Beasiswa Pendidikan Indonesia kepada:
+\begin{table}[htpb]
+    \begin{tabular}{p{4cm}l}
+Nama & : M. Uliah Shafar S.Ars, M.Ars\\
+Instansi & : Universitas Muhammadiyah Parepare \\
+Alamat & : Jl. Handayani no. 7, Ujung, Kota Parepare \\
+    \end{tabular}
+\end{table}
+
+Deskripsi Rekomendasi:
+
+\makenonemptybox{5cm}{rekomendasiBPIAtik}
+
+Demikian surat rekomendasi ini dibuat dengan sebenar-benarnya untuk dapat digunakan sebagaimana mestinya.
+
+
+{\raggedleft
+\begin{tabular}{l@{}}
+Parepare, \fillin[3cm] 2022 \\
+\hskip 2em (yang merekomendasi) \\
+\\
+\\
+\\
+\\
+(\fillin[6cm])\\
+\end{tabular}\par}
+
+\pagebreak
+
+\section{Surat Rekomendasi Akademisi}
+
+Yang bertanda tangan dibawah ini:
+
+\begin{table}[htpb]
+\renewcommand{\arraystretch}{1.25}
+    \begin{tabular}{p{4cm}l}
+Nama & : Imam Fadli, ST., MT.  \\
+NIP*) & : \\
+Pangkat/ Gol & : \\
+Jabatan & : \\
+Instansi & : Universitas Muhammadiyah Parepare \\
+Alamat Instansi & : Jl. Jend. A. Yani KM.6 Parepare, Sulawesi Selatan\\
+No. Telp/Handphone &: \\
+Email & : \\
+    \end{tabular}
+\end{table}
+
+Memberikan rekomendasi untuk mendaftar Beasiswa Pendidikan Indonesia kepada:
+\begin{table}[htpb]
+    \begin{tabular}{p{4cm}l}
+Nama & : M. Uliah Shafar S.Ars, M.Ars\\
+Instansi & : Universitas Muhammadiyah Parepare \\
+Alamat & : Jl. Handayani no. 7, Ujung, Kota Parepare \\
+    \end{tabular}
+\end{table}
+
+Deskripsi Rekomendasi:
+
+\makenonemptybox{5cm}{Rekomendasi BPI Imam}
+
+Demikian surat rekomendasi ini dibuat dengan sebenar-benarnya untuk dapat digunakan sebagaimana mestinya.
+
+
+{\raggedleft
+\begin{tabular}{l@{}}
+Parepare, \fillin[3cm] 2022 \\
+\hskip 2em (yang merekomendasi) \\
+\\
+\\
+\\
+\\
+(\fillin[6cm])\\
+\end{tabular}\par}
+\pagebreak
+
+\section{Reference Letter}
+
+
+
+
+
 
 \end{document}
