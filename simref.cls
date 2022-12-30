@@ -64,6 +64,8 @@
 	%showframe, % Uncomment to show how the type block is set on the page
 }
 
+\usepackage{comment}
+
 %----------------------------------------------------------------------------------------
 %	DEFINE CUSTOM COMMANDS
 %----------------------------------------------------------------------------------------
